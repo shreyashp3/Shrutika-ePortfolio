@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Sites Native Placeholders | Shrutika E-Portfolio</title>
+  <style>
+    :root {
+      --ink: #211d22;
+      --muted: #655d63;
+      --line: #dfd4d9;
+      --brand: #7d3650;
+      --teal: #176d82;
+      --paper: #ffffff;
+      --soft: #fff7ed;
+      --wash: #edf7f8;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, var(--soft), var(--wash), #fff);
+      color: var(--ink);
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(1120px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 28px 0 56px;
+    }
+
+    .note,
+    .hero,
+    .card,
+    .section-head,
+    .thanks {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .92);
+      box-shadow: 0 12px 28px rgba(37, 31, 38, .08);
+    }
+
+    .note {
+      margin-bottom: 18px;
+      padding: 16px 18px;
+      border-left: 6px solid var(--teal);
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+      gap: 20px;
+      padding: 20px;
+      border-top: 8px solid var(--brand);
+    }
+
+    .placeholder {
+      display: grid;
+      min-height: 230px;
+      place-items: center;
+      padding: 18px;
+      border: 2px dashed rgba(125, 54, 80, .45);
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(125, 54, 80, .08), rgba(23, 109, 130, .09)),
+        #fff;
+      color: var(--brand);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      color: var(--brand);
+      font-family: Georgia, serif;
+      font-size: clamp(34px, 5vw, 58px);
+      font-weight: 400;
+      line-height: 1.08;
+    }
+
+    .eyebrow {
+      margin-bottom: 8px;
+      color: var(--teal);
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .details p {
+      margin: 0;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .section-head {
+      margin: 28px 0 18px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .section-head h2 {
+      color: var(--brand);
+      font-family: Georgia, serif;
+      font-size: 36px;
+      font-weight: 400;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      overflow: hidden;
+      border-top: 6px solid var(--teal);
+    }
+
+    .copy {
+      padding: 18px;
+    }
+
+    .copy h3 {
+      margin-bottom: 8px;
+      color: var(--brand);
+      font-size: 18px;
+    }
+
+    .copy p {
+      margin-bottom: 0;
+      color: #302a31;
+    }
+
+    .wide {
+      grid-column: 1 / -1;
+    }
+
+    .thanks {
+      margin-top: 26px;
+      padding: 22px;
+      text-align: center;
+      color: var(--brand);
+      font-weight: 800;
+    }
+
+    @media (max-width: 760px) {
+      .hero,
+      .grid,
+      .details {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="note">
+      This is a visual reference for rebuilding the portfolio with native Google Sites blocks. To make images editable in Google Sites, add each image with Insert &gt; Image and paste the matching text below it.
+    </div>
+
+    <section class="hero">
+      <div class="placeholder">Add Profile Photo In Google Sites</div>
+      <div>
+        <p class="eyebrow">E-Portfolio</p>
+        <h1>Shrutika Mohan Shinde</h1>
+        <p>A professional B.Ed portfolio presenting coursework, teaching practice, classroom engagement, internship learning, and reflective growth across two semesters.</p>
+        <div class="details">
+          <p><strong>Name:</strong> Shrutika Mohan Shinde</p>
+          <p><strong>DOB:</strong> 14/07/2003</p>
+          <p><strong>College:</strong> Dr. D. Y. Patil College of Education, Pimpri, Pune.</p>
+          <p><strong>Roll No:</strong> 17</p>
+          <p><strong>Guide Teacher:</strong> Dr. Anuradha Golhar</p>
+          <p><strong>Inspiration:</strong> Dr. Rekha Pathak</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Semester 1</h2>
+        <p>Foundation evidence from learner development, contemporary education, pedagogy, microteaching, lesson planning, yoga, wellness, and reflective self-understanding.</p>
+      </div>
+      <div class="grid">
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>My Resume</h3><p>Presented the resume and academic profile as an opening document for the portfolio, introducing qualifications, teaching experience, internship exposure, and professional skills.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>101: Childhood and Growing Up</h3><p>Conducted a survey of a school-going learner under 18 years of age to understand daily routines, study habits, time management, and learning patterns.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>Learner Development Presentation</h3><p>Prepared a presentation on growth, maturation, and learner development, connecting theoretical concepts with classroom understanding.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>102: Contemporary Indian Education, Gender and Society</h3><p>Participated in a roleplay activity on bias and discrimination. Our group presented class bias to build awareness of social sensitivity in education.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>102: Social Change Presentation</h3><p>Presented a classroom presentation on social change and its influence on learners, schools, and the wider community.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>103: Understanding Discipline and School Subject</h3><p>Completed practical work connected to Science education, strengthening subject understanding through observation, activity, and documentation.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>103: English Storytelling Activity</h3><p>Prepared a storytelling activity based on "The Cracked Pot" to support language learning, values education, and classroom communication.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>104: Pedagogy of School Subject</h3><p>Completed content analysis of a Science unit to identify key concepts, learning outcomes, teaching points, and assessment opportunities.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>104: English Textbook Analysis</h3><p>Analysed the Standard VIII English textbook from the SSC pattern with attention to content structure, learner suitability, and classroom use.</p></div></article>
+        <article class="card wide"><div class="placeholder">Add Image</div><div class="copy"><h3>105: Integrated Microteaching and Digital Planning</h3><p>Prepared microteaching lesson plans across selected topics, focusing on core teaching skills, classroom interaction, and structured presentation.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>105: Microteaching</h3><p>Designed and practiced microteaching lessons using selected teaching skills to improve clarity, confidence, questioning, and lesson delivery.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>105: Digital Lesson Plan</h3><p>Created a digital lesson plan supported by presentation slides to make classroom instruction more visual, organized, and learner-friendly.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>106: Planning for Teaching and Evaluation</h3><p>Prepared planning and evaluation work focused on lesson organization, teaching objectives, learning activities, and assessment methods.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>106: Reflecting on Text</h3><p>Completed a reflective analysis of a selected book, developing interpretation, critical thinking, and written expression.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>107: Yoga Education</h3><p>Performed Tadasana and documented its benefits for posture, balance, concentration, body awareness, and overall wellness.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>107 B: Health, Wellness and First Aid</h3><p>Prepared a first-aid chart covering basic responses for injuries, burns, bleeding, and common emergency situations.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>108: Understanding of Self</h3><p>Reflected on personal strengths, weaknesses, opportunities, and threats through a structured SWOT activity for self-development.</p></div></article>
+        <article class="card wide"><div class="placeholder">Add Image</div><div class="copy"><h3>108 B: Portfolio Development</h3><p>Compiled portfolio material to present learning evidence, practical activities, reflective work, and professional teaching development.</p></div></article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Semester 2</h2>
+        <p>Second semester evidence covering advanced coursework, assessment practice, classroom teaching, internship engagement, ICT work, community participation, and portfolio development.</p>
+      </div>
+      <div class="grid">
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>201: Learning and Teaching</h3><p>Conducted a learning curve experiment to observe how practice, repetition, and feedback improve learning performance over time.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>202: Assessment and Evaluation for Learning</h3><p>Prepared a test blueprint and question paper to connect learning objectives, assessment design, and classroom evaluation.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>203: Indian Knowledge System</h3><p>Studied the Panchakosha Model and connected Indian knowledge traditions with holistic development in modern teaching practice.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>204: Practice Lesson</h3><p>Taught three Science and three English lessons under teacher observation, receiving feedback on planning, delivery, and classroom management.</p></div></article>
+        <article class="card wide"><div class="placeholder">Add Image</div><div class="copy"><h3>205: Internship</h3><p>Completed internship work at Blossom English Medium School, Chakan, gaining practical classroom exposure and confidence as a future teacher.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>206 B: Digital Initiative for Education</h3><p>Studied 12 educational applications at national and state level to understand how digital tools can support teaching and learning.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>206 A: Educational Event Management</h3><p>Participated in a Mehandi competition, developing creativity, teamwork, confidence, and event participation skills.</p></div></article>
+        <article class="card wide"><div class="placeholder">Add Image</div><div class="copy"><h3>207: Application on ICT and Digital Learning</h3><p>Created an online quiz, digital safety poster, newsletter, MOOC information resource, and presentation slides on the Indian Knowledge System.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>208 A: Community Engagement</h3><p>Visited an old age home in Nigadi, interacted with residents, listened to their experiences, performed songs, and distributed food and fruits.</p></div></article>
+        <article class="card"><div class="placeholder">Add Image</div><div class="copy"><h3>208 B: Outreach Activity</h3><p>Participated in an International Women's Day outreach program focused on awareness of women's rights, equality, and empowerment.</p></div></article>
+        <article class="card wide"><div class="placeholder">Add Image</div><div class="copy"><h3>209: Portfolio</h3><p>Prepared a semester portfolio covering B.Ed. 201 to B.Ed. 208, including reports, lesson plans, practical activities, and reflective learning evidence.</p></div></article>
+      </div>
+    </section>
+
+    <div class="thanks">Thank you for viewing my e-portfolio.</div>
+  </main>
+</body>
+</html>
